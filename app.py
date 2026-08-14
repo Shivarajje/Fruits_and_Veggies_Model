@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 st.title("🍎 Fruit & Vegetable Identifier")
-st.write("Upload an image to identify the item and view classification confidence.")
+st.write("Upload an image to identify the item and view identification confidence.")
 
 # 1. Load the Model with Caching
 @st.cache_resource

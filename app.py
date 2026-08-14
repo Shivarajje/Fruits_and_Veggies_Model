@@ -5,12 +5,12 @@ from PIL import Image, ImageOps
 
 # Page Configuration
 st.set_page_config(
-    page_title="Fruit & Vegetable Classifier",
+    page_title="Fruit & Vegetable Identifier",
     page_icon="🍎",
     layout="centered"
 )
 
-st.title("🍎 Fruit & Vegetable Classifier")
+st.title("🍎 Fruit & Vegetable Identifier")
 st.write("Upload an image to identify the item and view classification confidence.")
 
 # 1. Load the Model with Caching
